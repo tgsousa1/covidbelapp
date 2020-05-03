@@ -1,0 +1,20 @@
+{
+  "name": "covidbelapp",
+  "version": "1.0.0",
+  "description": "localizacao dos postos de atendimento covid em belém",
+  "main": "app.js",
+  "scripts": {
+    "start": "beefy app.js:bundle.js --live",
+    "bundle": "browserify app.js -o bundle.js"
+  },
+  "author": "tiago sousa",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "leaflet.locatecontrol": "^0.71.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^16.5.1"
+  }
+}
